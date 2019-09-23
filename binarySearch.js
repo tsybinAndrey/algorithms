@@ -4,7 +4,7 @@
  * @param {number|string} searchFor - number you wanna search for
  * @returns {number} - index of found item in array or -1 if there is no item
  */
-exports.binarySearch = function (list, searchFor) {
+const binarySearch = function (list, searchFor) {
   let low = 0
   let high = list.length - 1
 
@@ -20,5 +20,7 @@ exports.binarySearch = function (list, searchFor) {
     }
   }
 
-  return -1;
+  return -1
 }
+
+exports.binarySearch = binarySearch
