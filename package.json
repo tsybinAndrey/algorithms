@@ -4,7 +4,7 @@
   "description": "this is a repo with demos for algorithms and data structures",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "algorithms",
@@ -14,5 +14,8 @@
     "node.js"
   ],
   "author": "Andrew Tcybin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
